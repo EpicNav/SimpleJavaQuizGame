@@ -64,7 +64,7 @@ public class Questions {
 
     }
 
-    public void question(String Question, String optionA, String optionB, String optionC, String optionD, char correctOption, String messageOnFinish){
+    private void question(String Question, String optionA, String optionB, String optionC, String optionD, char correctOption, String messageOnFinish){
         char option;
         System.out.println("$: " + getPrice() + "       Lives: " + getLives());
         System.out.println(Question); // Prints the question...
